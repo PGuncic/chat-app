@@ -1,105 +1,105 @@
 body {    
-  color:darkslategrey;
-  background-color:rgb(237, 237, 237);
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0; 
-  padding: 0;
+    color:darkslategrey;
+    background-color:rgb(237, 237, 237);
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0; 
+    padding: 0;
 }
 .app {
-  background: #fff;
+    background: #fff;
 }
 @media (min-width: 700px) {
-  .app {
-      max-width: 500px;
-      margin: 20px auto;
-      box-shadow: 0 2px 5px #00000012;
-      border-radius: 20px;
-      overflow: hidden;
-  }
+    .app {
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 2px 5px #00000012;
+        border-radius: 20px;
+        overflow: hidden;
+    }
 }
 .currentUserName {
-  text-align: center;
-  font-size: 12px;
-  border-bottom: 1px solid #ededed;
-  padding: 10px;
-  color: #909090;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+    padding: 10px;
+    color: #909090;
 }
 .messageList {
-  padding: 20px;
-  min-height: 200px;
+    padding: 20px;
+    min-height: 200px;
 }
 .messageBox {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;  
-  margin: 15px 0;
-  position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    margin: 15px 0;
+    position: relative;
 }
 .messageBox:last-child {
-  animation: messageEnter 0.3s;
+    animation: messageEnter 0.3s;
 }
 @keyframes messageEnter {
-  from { top: -10px; opacity: 0; }
-  to { top: 0px; opacity: 1; }
+    from { top: -10px; opacity: 0; }
+    to { top: 0px; opacity: 1; }
 }
 .messageBox .author {
-  font-size: 14px; 
-  line-height: 1.4;
-  color: rgb(76, 74, 74);
-  margin-bottom: 8px;
-  padding: 0 15px;
+    font-size: 14px; 
+    line-height: 1.4;
+    color: rgb(76, 74, 74);
+    margin-bottom: 8px;
+    padding: 0 15px;
 }
 .messageBox .text {
-  font-size: 16px;
-  padding: 10px 15px;
-  color: #fff;
-  line-height: 1.4;
-  border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #fff;
+    line-height: 1.4;
+    border-radius: 20px;
 }
 .myMessage {
-  margin-left: 30px;
+    margin-left: 30px;
 }
 .myMessage .text {
-  background-color: #f67af6;
+    background-color: #f67af6;
 }
 .recipientMessage {
-  margin-right: 30px;
-  align-items: flex-start;  
+    margin-right: 30px;
+    align-items: flex-start;  
 }
 .recipientMessage .text {
-  background-color:#6a7cf5;
+    background-color:#6a7cf5;
 }
 .newMessageForm {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  background: #fff;
-  border-top: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff;
+    border-top: 1px solid #ededed;
 }
 .newMessageInput {
-  font-size: 14px;
-  padding: 12px 25px;
-  width: 100%;
-  background: #f3f3f3; 
-  border-radius: 40px;
-  color: black;
-  border: 0;
+    font-size: 14px;
+    padding: 12px 25px;
+    width: 100%;
+    background: #f3f3f3; 
+    border-radius: 40px;
+    color: black;
+    border: 0;
 }
 .newMessageInput:focus {
-  outline: none;
+    outline: none;
 }
 .newMessageBtn {
-  font-weight: 700;
-  border: 0; 
-  background: transparent;
-  cursor: pointer;
-  padding: 0 5px;
-  padding-left: 20px;
-  color: #e04bf9;
-  transition: color 0.3s;
+    font-weight: 700;
+    border: 0; 
+    background: transparent;
+    cursor: pointer;
+    padding: 0 5px;
+    padding-left: 20px;
+    color: #e04bf9;
+    transition: color 0.3s;
 }
 .newMessageBtn:hover,
 .newMessageBtn:active {
-  color: #962aa9;
+    color: #962aa9;
 }
